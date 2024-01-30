@@ -5,7 +5,7 @@
 <br>
 
 
-![Ufo image]()
+![Comming-soon-image](./img/page%20design.png)
 
 <br>
 
@@ -13,7 +13,7 @@
 
 This project is for educational porpuses only. The main goal of this project is to create a simple website about UFOs error page!    
 
->Site published at: https://silvijaz.github.io/48-grupe-html-ufo/
+>Site published at: https://silvijaz.github.io/48-grupe-coming-soon/
 
 >Design: [Ufo design] https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png?ex=65c5b9bc&is=65b344bc&hm=cc496470d99608558d3f8ef8b9246b33023f2a1f0f5f04243f2f4e690df14a1b&
 
@@ -50,7 +50,7 @@ Open terminal and follow my instruction:
 1) Clone repository:
 
 ```
-https://github.com/SilvijaZ/48-grupe-html-ufo.git
+https://github.com/SilvijaZ/48-grupe-coming-soon
 ```
 
 2) Install NPM packages:
