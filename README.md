@@ -11,7 +11,7 @@
 
 ## :bulb: About Project
 
-This project is for educational porpuses only. The main goal of this project is to create a simple website about UFOs error page!    
+This project is for educational porpuses only. The main goal of this project is to create a simple website about Coming Soon page!    
 
 >Site published at: https://silvijaz.github.io/48-grupe-coming-soon/
 
