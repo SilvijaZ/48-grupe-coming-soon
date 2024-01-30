@@ -1,4 +1,4 @@
-# :flying_saucer: Ufo
+# Coming Soon
 
 ***Website  design  project***
 
@@ -67,7 +67,7 @@ Choose one of them. They  are same commands.
 npm run dev
 ```
 
-## :woman_astronaut: Authors
+## :wave: Authors
 
 Silvija: [Github link](https://github.com/SilvijaZ)
 
