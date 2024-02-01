@@ -133,7 +133,7 @@ DIV RED PRIKLAUSO:
     }
     .container .column.short{
         width: 100%;/*inherit - paveldi plota*/
-        margin: unset;
+        margin-left: unset;
     }
 }
 
