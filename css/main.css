@@ -70,18 +70,18 @@ DIV RED PRIKLAUSO:
     gap: 40px 0; /*40px vertical, 0 horizontal*/
     width: 1000px;
     margin-left: calc(50% - 500px);
-    background-color: pink;
+    /*background-color: pink;*/
 }
 
 .container > .row-short{
     width: 600px;
     margin-left: calc(50% - 300px);
-    background-color: pink;
+    /*background-color: pink;*/
 }
 
 .container .column{
     width: 50%;
-    border: 10px solid springgreen;
+    /*border: 10px solid springgreen;*/
 }
 
 .container .column.short{
