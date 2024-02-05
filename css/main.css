@@ -10,57 +10,16 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/*
-DIV RED PRIKLAUSO:
-.red{
-    width: 1000px;
-    margin-left: calc(50% - 500px);
-    background-color: rgb(255, 0, 255);
-    font-size: 20px;
-}
 
-@media (max-width: 1100px) {
-    .red{
-        width: 800px;
-        margin-left: calc(50% - 400px);
-        background-color: rgb(254, 126, 5);
-    }
-}
-
-@media (max-width: 900px) {
-    .red{
-        width: 600px;
-        margin-left: calc(50% - 300px);
-        background-color: rgb(9, 255, 206);
-    }
-}
-
-@media (max-width: 700px) {
-    .red{
-        width: 400px;
-        margin-left: calc(50% - 200px);
-        background-color: rgb(167, 5, 254);
-    }
-}
-
-@media (max-width: 460px) {
-    .red{
-        width: 100%;
-        margin-left: 0;
-        padding: 20px;
-        background-color: rgb(246, 254, 5);
-    }
-}
-*/
-
-.bg-blue{
-    background-color: lightblue;
+.bg-primary{
+    /*background-color: rgb(3,169,244); RGB*/
+    background-color: #03a9f4; /*HEX sesioliktainis variantas
+    - geresnis naudoti*/
 }
 
 .container{
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
 .container > .row{
@@ -69,13 +28,14 @@ DIV RED PRIKLAUSO:
     flex-wrap: wrap; /*jeigu netelpa kelia i nauja eilute*/
     gap: 40px 0; /*40px vertical, 0 horizontal*/
     width: 1000px;
-    margin-left: calc(50% - 500px);
+    /*margin-left: calc(50% - 500px);*/
+    margin: 0 calc(50% - 500px); /*visomis kryptimis*/
     /*background-color: pink;*/
 }
 
 .container > .row-short{
     width: 600px;
-    margin-left: calc(50% - 300px);
+    margin: 0 calc(50% - 300px);
     /*background-color: pink;*/
 }
 
@@ -89,10 +49,30 @@ DIV RED PRIKLAUSO:
     margin-left: auto;
 }
 
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.hero > .logo{
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+.hero > .main-title{
+    font-size: 80px;
+}
+.hero > .desription{
+    font-size: 20px;
+}
+
 @media (max-width: 1100px){
     .container > .row{
         width: 800px;
-        margin-left: calc(50% - 400px);
+        margin: 0 calc(50% - 400px);
     }
 }
 
@@ -100,14 +80,14 @@ DIV RED PRIKLAUSO:
     .container > .row{
         /*flex-direction: column;*/
         width: 600px;
-        margin-left: calc(50% - 300px);
+        margin: 0 calc(50% - 300px);
     }
     .container .column{
         width: 100%
     }
     .container .column.short{
         width: 100%;/*inherit - paveldi plota*/
-       margin-left: unset;
+        margin-left: unset;
     }
 }
 
@@ -115,19 +95,21 @@ DIV RED PRIKLAUSO:
     .container > .row,
     .container > .row-short{
         width: 400px;
-        margin-left: calc(50% - 200px);
+        margin: 0 calc(50% - 200px);
     }
 }
 
 @media (max-width: 440px){
     .container{
+        /*padding: 60px 20px; jei pradine reiksme keiciasi
+        cia irgi tada turi pakeisti, bet geriau rasyti atskirai padding*/
         padding-left: 20px;
         padding-right: 20px;
     }
     .container > .row,
     .container > .row-short{
         width: 100%;
-        margin-left: 0;
+        margin: 0;
     }
 }
 
