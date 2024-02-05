@@ -101,6 +101,22 @@ body{
 
 /*FOOTER*/
 
+footer.container{
+    padding-top: 0;
+}
+
+.socials.row {
+    gap: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.socials > a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .footer-bottom{
     text-align: center;
 }
