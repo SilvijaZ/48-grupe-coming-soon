@@ -29,8 +29,7 @@ body{
     gap: 40px 0; /*40px vertical, 0 horizontal*/
     width: 1000px;
     /*margin-left: calc(50% - 500px);*/
-    margin: 0 calc(50% - 500px);
-
+    margin: 0 calc(50% - 500px); /*visomis kryptimis*/
     /*background-color: pink;*/
 }
 
@@ -65,7 +64,6 @@ body{
 }
 .hero > .main-title{
     font-size: 80px;
-    text-transform: uppercase;
 }
 .hero > .desription{
     font-size: 20px;
