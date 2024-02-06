@@ -21,30 +21,30 @@ body{
 
 .container{
     width: 100%;
-    padding: 60px 0;
+    padding: 4rem 0;
 }
 
 .container > .row{
     display: flex;
     justify-content: center;
     flex-wrap: wrap; /*jeigu netelpa kelia i nauja eilute*/
-    gap: 40px 0; /*40px vertical, 0 horizontal*/
-    width: 1000px;
+    gap: 2.5rem 0; /*40px vertical, 0 horizontal*/
+    width: 62rem;
     /*margin-left: calc(50% - 500px);*/
-    margin: 0 calc(50% - 500px); /*visomis kryptimis*/
+    margin: 0 calc(50% - 31rem); /*visomis kryptimis*/
     /*background-color: pink;*/
 }
 
 .container > .row-short{
-    width: 600px;
-    margin: 0 calc(50% - 300px);
+    width: 38rem;
+    margin: 0 calc(50% - 19rem);
     /*background-color: pink;*/
 }
 
 .container .column{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     width: 50%;
     /*border: 10px solid springgreen;*/
 }
@@ -60,31 +60,34 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     text-align: center;
 }
 
 .hero > .logo{
-    height: 40px;
-    margin-bottom: 20px;
+    height: 2.5rem;
+    margin-bottom: 1.25rem;
+}
 
-}
 .hero > .main-title{
-    font-size: 80px;
+    /*font-size: 80px;*/
+    font-size: 5rem;
 }
+
 .hero > .desription{
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 1.25rem;
 }
 
 /*CONTENT*/
 
 .section-title{
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
 
 .section-desription{
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #737779;
 }
 
@@ -106,22 +109,23 @@ footer.container{
 }
 
 .socials.row {
-    gap: 30px;
-    padding: 20px 0;
-    border-bottom: 1px solid #fff;
+    margin-bottom: 2rem;
+    gap: 1.875rem;
+    padding: 1.25rem 0;
+    border-bottom: 0.1rem solid #fff;
 }
 
 .socials > a{
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    line-height: 40px;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    border-radius: 50%;
-    /*transition: background-color 1s, color 5s;*/
+    border-radius: 50%;  /*10000 * 0.5 = 500px*/
     transition: all 0.3s; /* 300ms - milisekundes*/
+    /*transition: background-color 1s, color 5s;*/
 }
 
 .socials > a:hover{
@@ -136,13 +140,13 @@ footer.container{
 }
 
 footer .logo{
-    height: 40px;
-    margin-bottom: 30px;
+    height: 2.5rem;
+    margin-bottom: 1.875rem;
 }
 
 footer p{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
     /*color: #ffffffbb; bb - alpha hex*/
     color: #fffb;
 }
@@ -159,42 +163,46 @@ footer p > a:hover{
 
 /*RESPONSIVE*/
 
-@media (max-width: 1100px){
+@media (max-width: 70rem){
     .container > .row{
-        width: 800px;
-        margin: 0 calc(50% - 400px);
+        width: 50rem;
+        margin: 0 calc(50% - 25rem);
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 56rem){
     .container > .row{
         /*flex-direction: column;*/
-        width: 600px;
-        margin: 0 calc(50% - 300px);
+        width: 38rem;
+        margin: 0 calc(50% - 19rem);
     }
     .container .column{
         width: 100%
     }
     .container .column.short{
-        width: 100%;/*inherit - paveldi plota*/
+        width: 100%;
         margin-left: unset;
+        /*inherit - paveldi plota*/
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 44rem){
     .container > .row,
     .container > .row-short{
-        width: 400px;
-        margin: 0 calc(50% - 200px);
+        width: 25rem;
+        margin: 0 calc(50% - 12.5rem);
     }
 }
 
-@media (max-width: 440px){
+@media (max-width: 42.5rem){
     .container{
-        /*padding: 60px 20px; jei pradine reiksme keiciasi
-        cia irgi tada turi pakeisti, bet geriau rasyti atskirai padding*/
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        
+        /*padding: 60px 20px; 
+        jei pradine reiksme keiciasi
+        cia irgi tada turi pakeisti, 
+        bet geriau rasyti atskirai padding*/
     }
     .container > .row,
     .container > .row-short{
