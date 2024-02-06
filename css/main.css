@@ -112,9 +112,23 @@ footer.container{
 }
 
 .socials > a{
+    width: 40px;
+    height: 40px;
     font-size: 20px;
+    line-height: 40px;
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    /*transition: background-color 1s, color 5s;*/
+    transition: all 0.3s; /* 300ms - milisekundes*/
+}
+
+.socials > a:hover{
+    background-color: #fff;
+    color: #03a9f4;
+    transition: all 1s; 
+    /*1s pradeda, o baigiasi su 0.3s*/
 }
 
 .footer-bottom{
