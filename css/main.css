@@ -101,6 +101,41 @@ body{
     text-decoration: underline;
 }
 
+.row.btn-list{
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding: 1em 2em;
+    font-size: 1.25rem;
+    line-height: 1em;
+    background-color: #ea1e63;
+    color: #fff;
+    border-radius: 0.4em;
+    cursor: pointer;
+    user-select: none; /*kad nekopijuotų teksto, bet input leis žymėti*/
+}
+
+.btn:hover{
+    background-color:#c11c53;
+}
+
+.btn.btn-big{
+    font-size: 2.5rem;
+    /*padding: 2rem 4rem;
+    font-size: 2rem;
+    border-radius: 0.8rem;*/
+}
+
+.btn.btn-small{
+    font-size: 0.7rem;
+    /*padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;*/
+}
 
 /*FOOTER*/
 
