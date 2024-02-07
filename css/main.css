@@ -60,7 +60,7 @@ body{
     min-height: 100vh;
     /*vh - viewport height
     vw - viewport width*/
-    background-image: url(../img/background.png);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat; /*repeat-y ir repeat-x, arba naudoti procentine israiska -> 80% 90%*/
     background-position: center; /* top-left -> default, jei parasai klaidinga koda, visuomet isvardinti dvi kryptis*/
     background-size: cover; /*contain, cover*/
