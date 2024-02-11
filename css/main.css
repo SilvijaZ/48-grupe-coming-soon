@@ -173,11 +173,13 @@ footer p > a:hover{
 .back-to-top{
     background-color: red;
     width: 100px;
+    height: 100px;
     position: fixed;
     bottom: 5rem;
     right: 5rem;
     border: 1px solid white;
     border-radius: 50%;
+    text-align: center;
     /*top: calc(50% - 50px);
     left: calc(50% - 50px);
     top: 50%;
