@@ -49,6 +49,7 @@ body{
 .container .column{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 1.25rem;
     width: 50%;
     /*border: 10px solid springgreen;*/
