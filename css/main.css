@@ -118,6 +118,30 @@ body{
     text-decoration: underline;
 }
 
+/*FORM in HERO*/
+
+.form-sub{
+    justify-content: center;
+}
+
+.form-sub input{
+    border-color: #fff;
+    color: white;
+}
+
+.form-sub input::placeholder{
+    color: white;
+}
+
+@media (min-width: 70rem){
+    .form-message .form-row:nth-child(1),
+    .form-message .form-row:nth-child(2) {
+        width: calc(50% - 0.5rem);
+        /*nes gap yra 1em, tai po puse tarpo,
+        po to sutelpa i viena eilute*/
+    }
+}
+
 /*FOOTER*/
 
 footer.container{
