@@ -30,8 +30,71 @@
     overflow: hidden;
 }
 .progress-bar .progress {
-    background-color: #03a9f4;
     width: 90%;
     height: inherit;
     border-radius: 0 0.25rem 0.25rem 0;
 }
+
+.progress-bar .progress::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: inherit;
+    border-radius: 0 0.25rem 0.25rem 0;
+    background-color: #03a9f4;
+    animation-name: loading;
+    animation-duration: 3s;
+}
+
+@keyframes loading{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+/*.progress-bar .progress.value-50 {
+    width: 50%;
+    animation-name: loading-50;
+}
+
+.progress-bar .progress.value-86 {
+    width: 86%;
+    animation-name: loading-86;
+}
+
+.progress-bar .progress.value-89 {
+    width: 89%;
+    animation-name: loading-89;
+}
+
+@keyframes loading-50{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes loading-86{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 86%;
+    }
+}
+
+@keyframes loading-89{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 89%;
+    }
+}*/
+
