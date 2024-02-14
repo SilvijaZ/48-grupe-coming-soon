@@ -41,7 +41,7 @@
     width: 100%;
     height: inherit;
     border-radius: 0 0.25rem 0.25rem 0;
-    background-color: #03a9f4;
+    background-color: var(--primary);
     animation-name: loading;
     animation-duration: 3s;
 }

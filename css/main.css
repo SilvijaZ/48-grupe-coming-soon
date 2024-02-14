@@ -1,3 +1,15 @@
+:root{
+    --primary: #03a9f4;
+    --secondary: #ea1e63;
+    --secondary-1: #c31851;
+    --grey: #737779;
+
+    /*priskiria kintamajį su kuriuo gali 
+    uzdėti pagrindine spalva kuri galetu kisti
+    */
+}
+
+
 html{
     scroll-behavior: smooth;
     /*veikia tikriausiai tik su html tag, scrolina švelniai*/
@@ -18,7 +30,7 @@ body{
 
 .bg-primary{
     /*background-color: rgb(3,169,244); RGB*/
-    background-color: #03a9f4; /*HEX sesioliktainis variantas
+    background-color: var(--primary); /*HEX sesioliktainis variantas
     - geresnis naudoti*/
 }
 
@@ -105,11 +117,11 @@ body{
 
 .section-desription{
     font-size: 1.125rem;
-    color: #737779;
+    color: var(--grey);
 }
 
 .section-desription > a{
-    color: #ea1e63;
+    color: var(--secondary);
     text-decoration: none;
 }
 
@@ -170,7 +182,7 @@ footer.container{
 
 .socials > a:hover{
     background-color: #fff;
-    color: #03a9f4;
+    color: var(--melyna);
     transition: all 1s; 
     /*1s pradeda, o baigiasi su 0.3s*/
 }
@@ -201,7 +213,7 @@ footer p > a:hover{
 }
 
 .back-to-top{
-    background-color: red;
+    background-color: var(--secondary-1);
     width: 100px;
     height: 100px;
     position: fixed;
